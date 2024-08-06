@@ -6,5 +6,5 @@ $Salario= $_POST ['Salario'];
 echo "LA IDENTIFICACION DEL EMPLEADO ES:   ".Identificacion;
 echo "LOS NOMBRES Y APELLIDOS DEL EMPLEADO SON".NomApellidos;
 echo "EL CARGO DEL EMPLEADOES:  ".Cargo;
-echo "EL SALARIO DEL EMPLEADO ES :   ".Salario;
+echo "EL SALARIO DEL EMPLEADO ES :  ".Salario;
 ?>
