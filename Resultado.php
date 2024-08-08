@@ -1,0 +1,16 @@
+ <?php
+$PRODUCTO_1=$_POST ['PRODUCTO_1'];
+ $PRODUCTO_2=$_POST ['PRODUCTO_2'];
+$PRODUCTO_3=$_POST ['PRODUCTO_3'];
+$PRECIO_1=$_POST ['PRECIO_1'];
+$PRECIO_2=$_POST ['PRECIO_2'];
+$PRECIO_3=$_POST ['PRECIO_3'];
+$suma=$PRECIO_1+$PRECIO_2+$PRECIO_3;
+$descuento=$suma-0.16%;
+
+
+echo "SUS PRODUCTOS SON:   ".$PRODUCTO_1 .$PRODUCTO_2 .$PRODUCTO_3;
+  echo "LA SUMA DE TUS PRODUCTOS SON:       ".$suma;
+  echo "EL DESCUENTO QUE SE LE APLICA ES:       ".$descuento;
+?>
+
